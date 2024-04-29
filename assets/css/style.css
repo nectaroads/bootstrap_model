@@ -1,0 +1,58 @@
+/* START:ROOT */
+@font-face {
+    font-family: "XXX";
+    src: url('/assets/fonts/XXX'),
+        url('/assets/fonts/XXX');
+}
+
+:root {
+    --primary-color: #000;
+    --secondary-color: #000;
+    --background-color: #000;
+}
+
+/* END:ROOT */
+
+
+
+/* START:RESET */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/* END:RESET */
+
+
+
+/* START:CUSTOMIZATION */
+/* END:CUSTOMIZATION */
+
+
+
+/* START:MEDIA */
+@media (max-width: 960px) {}
+
+@media (min-width: 960px) {}
+
+/* END:MEDIA */
